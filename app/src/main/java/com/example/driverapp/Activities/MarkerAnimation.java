@@ -1,4 +1,4 @@
-package com.example.driverapp;
+package com.example.driverapp.Activities;
 
 import android.os.Handler;
 import android.os.SystemClock;

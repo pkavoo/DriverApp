@@ -1,9 +1,11 @@
-package com.example.driverapp;
+package com.example.driverapp.Activities;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.driverapp.R;
 
 public class PendingRequests extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.driverapp;
+package com.example.driverapp.Activities;
 
 import com.google.android.gms.maps.model.LatLng;
 

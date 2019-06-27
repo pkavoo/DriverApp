@@ -1,4 +1,4 @@
-<android.support.design.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -46,23 +46,12 @@
             android:text="COMPLETED"/>
 
         <TextView
-            android:id="@+id/salary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/order_status"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="1dp"
-            android:text="Employee Salary:"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/employee_age"
+            android:id="@+id/patient_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/order_status"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="55dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="54dp"
             android:text="10:18 PM"
@@ -78,30 +67,17 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="67dp"
-            android:text="Employee Salary"
+            android:text="patient Location"
             android:textSize="18sp" />
 
         <TextView
-            android:textColor="@android:color/black"
-            android:textStyle="bold"
-            android:id="@+id/employee_salary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/order_status"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="10dp"
-            android:text="10:18 PM"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/starting_point"
+            android:id="@+id/patient_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/destination"
             android:layout_marginLeft="40dp"
             android:layout_marginBottom="5dp"
-            android:text="Employee Name:"
+            android:text="Patient Name:"
             android:textSize="18sp" />
 
         <TextView
@@ -126,4 +102,4 @@
 
 
 
-</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
